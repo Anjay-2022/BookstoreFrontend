@@ -1,0 +1,240 @@
+#orderdetails {
+    display: flex;
+    height: auto;
+    width: 100%;
+    /* border: 2px solid wheat; */
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+}
+
+#linkstack {
+    display: flex;
+    height: 4%;
+    width: 50%;
+    /* border: 2px solid aqua; */
+    align-items: center;
+    left: 10%;
+    margin-left: -16%;
+}
+
+#mycart {
+    display: flex;
+    height: 180px;
+    width: 49.5%;
+    background-color: wheat;
+    align-items: center;
+    flex-direction: column;
+    border: 2px solid #dad9d9;
+    margin-top: 1%;
+    margin-left: 17.25%;
+}
+
+#cartandlocation {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 20%;
+    width: 90%;
+    margin-top: 1%;
+    /* background-color: aquamarine; */
+}
+
+#boxTitle {
+    text-align: left;
+    font: normal normal medium 18px/24px Roboto;
+    letter-spacing: 0px;
+    color: #333232;
+    opacity: 1;
+    font-size: larger;
+    font-weight: 800;
+}
+
+#location {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 50%;
+    width: 30%;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #DCDCDC;
+    border-radius: 1px;
+    opacity: 1;
+}
+
+#mycartdetails1 {
+    display: flex;
+    height: 80%;
+    width: 90%;
+    /* background-color: aliceblue; */
+}
+
+#imgdiv {
+    display: flex;
+    height: 1%;
+    width: 13%;
+}
+
+#mycartdetails1bookdetails {
+    display: flex;
+    height: 100%;
+    width: 70%;
+    /* background-color: rgb(247, 199, 199); */
+    flex-direction: column;
+    margin-left: 3%;
+}
+
+#cartaddremoveapicall {
+    display: flex;
+    height: 17%;
+    width: 40%;
+    /* background-color: rgb(128, 185, 204); */
+    margin-top: 5%;
+    justify-content: space-evenly;
+}
+
+.incdesbtn {
+    display: flex;
+    height: 100%;
+    width: 25%;
+    border-radius: 100%;
+    background: #FAFAFA;
+    border: 1px solid #abaaaa;
+    opacity: 1;
+    justify-content: center;
+    font-size: 24px;
+}
+
+#count {
+    display: flex;
+    height: 90%;
+    width: 25%;
+    background-color: white;
+    border: 1px solid #abaaaa;
+    justify-content: center;
+    align-items: center;
+}
+
+#minusSign {
+    text-align: start;
+}
+
+#checkoutbtn {
+    display: flex;
+    margin-top: 18%;
+    height: 20%;
+    width: 20%;
+    background-color: #3371B5;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    font: normal normal medium 20px/20px Roboto;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-weight: 800%;
+    border-radius: 3px;
+    opacity: 1;
+
+}
+
+#customerdetails {
+    display: flex;
+    height: 350px;
+    width: 50%;
+    margin-left: -5%;
+    background-color: whitesmoke;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 2px solid #dad9d9;
+    margin-top: 1%;
+    margin-left: -16%;
+}
+
+
+#customerdetailstitle {
+    display: flex;
+    height: 5%;
+    width: 90%;
+    font: normal normal medium 18px/24px Roboto;
+    color: #333232;
+    opacity: 1;
+    /* background-color: #abaaaa; */
+    font-size: larger;
+    font-weight: 800;
+}
+
+#form {
+    display: flex;
+    width: 85%;
+    justify-content: space-around;
+    height: 85%;
+    flex-direction: column;
+    /* background-color: teal; */
+}
+
+
+#nameMob {
+    display: flex;
+    justify-content: space-between;
+    height: 17%;
+    width: 100%;
+    /* background-color: white; */
+}
+
+.firstnamebox {
+    display: flex;
+    height: 100%;
+    width: 49%;
+    font: normal normal normal 18px/20px Roboto;
+    color: #0A0102;
+    /* background-color: #dad9d9; */
+    flex-direction: column;
+}
+
+.firstnameinput {
+    height: 60%;
+    border: 1px solid #DCDCDC;
+    outline: none;
+}
+
+.addressbox {
+    height: 20%;
+    width: 100%;
+    /* border: 2px solid red; */
+}
+
+.addressinput {
+    height: 65%;
+    width: 99.2%;
+    border: 1px solid #DCDCDC;
+    outline: none;
+}
+
+#typebox {
+    display: flex;
+    height: 15%;
+    width: 50%;
+    /* background-color: #dad9d9; */
+    flex-direction: column;
+}
+
+#radiobtn {
+    display: flex;
+    justify-content: space-between;
+}
+
+#createadd {
+    display: flex;
+    background-color: #3371B5;
+    align-self: flex-end;
+    height: 8%;
+    width: 18%;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    color: white;
+}
+#summary{
+    display: none;
+}

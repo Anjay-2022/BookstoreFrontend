@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY CART</title>
+    <script src="https://code.jquery.com/jquery-3.6.3.js"
+        integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="/CSS/header.css">
+    <link rel="stylesheet" type="text/css" href="/CSS/bookdetail.css">
+    <link rel="stylesheet" type="text/css" href="/CSS/myCart.css">
+</head>
+<style>
+
+</style>
+
+<body id="body">
+    <header id="header">
+        <div id="subheader">
+            <img id="bookpng" src="/Assets/education.svg" height="50%" width="2%" />
+            <div id="bookstoretag">BookStore</div>
+            <div id="searchbar">
+                <img id="searchpng" src='../Assets/search-interface-symbol.png' height="70%" width="5%">
+                <input class="search" id="search" type="search" placeholder="Search">
+            </div>
+            <img id="userpng" src="/Assets/icons8-account-24.png" height="60%" width="2.5%" />
+            <img id="cartpng" src="/Assets/icons8-fast-cart-24.png" height="60%" width="2.5%" />
+            <img id="wishlistpng" src="/Assets/icons8-heart-24.png" height="60%" width="2.5%" />
+        </div>
+    </header>
+
+    <div id="orderdetails">
+        <div id="linkstack"><a href="http://127.0.0.1:5500/HTML/dashboard.html">Home/</a></div>
+        <div style="width: 100vw;">
+            <div id="mycart">
+                <div id="cartandlocation">
+                    <div id="boxTitle">My Cart</div>
+                    <div id="location">
+                        <img src="/Assets/location.png" height="80%" />
+                        <div>Use current location</div>
+                        <img src="/Assets/dropdown.png" height="50%" />
+                    </div>
+                </div>
+                <div id="mycartdetails1">
+                    <div id="imgdiv"> <img src="/Assets/Image 11@2x.png" height="100px"></div>
+                    <div id="mycartdetails1bookdetails">
+                        <div id="bookname">BOOKNAME</div>
+                        <div id="authorname">By Author</div>
+                        <div id="pricetag">RS. PRICE</div>
+                        <div id="cartaddremoveapicall">
+                            <div style="display: flex;height: 100%; width: 60%;justify-content: space-around;">
+                                <div class="incdesbtn" id="minusSign">-</div>
+                                <div id="count"></div>
+                                <div class="incdesbtn">+</div>
+                            </div>
+                            <button style="border: none;background-color: white;">Remove</button>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div id="customerdetails">
+            <div id="customerdetailstitle">Customer Details</div>
+            <div id="form">
+                <div id="nameMob">
+                    <div class="firstnamebox">Firstname<input class="firstnameinput" id="firstnameinput" /></div>
+                    <div class="firstnamebox">Mobile Number<input class="firstnameinput" id="mobileNo." /></div>
+                </div>
+                <div class="addressbox">Address<input class="addressinput" id="addressinput" /></div>
+
+                <div id="nameMob">
+                    <div class="firstnamebox">city/town<input class="firstnameinput" id="firstnameinput" /></div>
+                    <div class="firstnamebox">State<input class="firstnameinput" id="mobileNo." /></div>
+                </div>
+                <div id="typebox">Type
+                    <div id="radiobtn">
+                        <div> <input type="radio" id="Home" value="Home" /><label for="Home">Home</label></div>
+                        <div> <input type="radio" id="work" value="work" /><label for="work">work</label></div>
+                        <div> <input type="radio" id="other" value="other" /><label for="other">other</label></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+            <div id="mycart">
+                <div id="cartandlocation">
+                    <div id="boxTitle">Order summery</div>
+                </div>
+                <div id="mycartdetails1">
+                    <div id="imgdiv"> <img src="/Assets/Image 11@2x.png" height="100px"></div>
+                    <div id="mycartdetails1bookdetails">
+                        <div id="bookname">BOOKNAME</div>
+                        <div id="authorname">By Author</div>
+                        <div id="pricetag">RS. PRICE</div>
+                    </div>
+                    <div id="checkoutbtn">Checkout</div>
+                </div>
+            </div>
+    </div>
+
+
+</body>
+
+</html>

@@ -1,0 +1,152 @@
+    #body {
+        height: 97vh;
+        width: 99vw;
+    }
+
+    #header {
+        display: flex;
+        justify-content: center;
+        height: 7%;
+        width: 100%;
+        background-color: #D36756;
+    }
+
+    #subheader {
+        display: flex;
+        align-items: center;
+        height: 90%;
+        width: 70%;
+    }
+
+    #bookpng {
+        margin-left: 2%;
+    }
+
+    #bookstoretag {
+        margin-left: 2%;
+        font: normal normal normal 20px/26px Roboto;
+        letter-spacing: 0px;
+        color: #FFFFFF;
+        text-transform: capitalize;
+        opacity: 1;
+    }
+
+    #searchbar {
+        display: flex;
+        background-color: white;
+        justify-content: space-between;
+        align-items: center;
+        margin-left: 2%;
+        height: 70%;
+        width: 50%;
+        border-radius: 5px;
+    }
+
+    #search {
+        display: flex;
+        height: 80%;
+        width: 88%;
+        margin-left: 2%;
+        outline: none;
+        border: none;
+    }
+
+    #searchpng {
+        margin-left: 2%;
+    }
+
+    #userpng {
+        margin-left: 20%;
+    }
+
+    #cartpng {
+        margin-left: 2%;
+    }
+
+    #wishlistpng {
+        margin-left: 2%;
+    }
+
+    #footer {
+        display: block;
+        height: 5%;
+        width: 100%;
+        align-items:center;
+        background-color: #2e1d1e;
+        color: white;
+        text-indent: 15%;
+        margin-top: 2%;
+   }
+
+    .showbook {
+        display: flex;
+        min-height: 87.8%;
+        width: 100%;
+        /* background-color: wheat; */
+        font: normal normal bold 15px/18px Roboto;
+        line-height: 150%;
+        color: #0A0102;
+        justify-content: center;
+    }
+   
+
+    #bookview {
+        display: flex;
+        height: 275px;
+        width: 235px;
+        margin: 1%;
+        border-radius: 5px;
+        border: 2px solid #ecebeb;
+        flex-direction: column;
+
+    }
+
+    #bookimgcont {
+        display: flex;
+        height: 70%;
+        width: 100%;
+        /* background-color: yellow; */
+        justify-content: center;
+    }
+
+    #reviewrating {
+        display: flex;
+        margin-left: 5%;
+        height: 7%;
+        justify-content: space-around;
+        width: 20%;
+        background-color: #388E3C;
+    }
+
+    .ml5 {
+        margin-left: 5%;
+    }
+
+    .submiddle {
+        display: flex;
+        width: 100%;
+        flex-wrap: wrap;
+        margin: 3%;
+        /* background-color: #D36756; */
+        justify-content: center;
+    }
+
+    #cart{
+        display: flex;
+        width: 100%;
+        flex-wrap: wrap;
+        margin: 3%;
+        /* background-color: #D36756; */
+        justify-content: center;
+    }
+    #wishlist{ 
+        display: flex;
+        width: 100%;
+        flex-wrap: wrap;
+        margin: 3%;
+        /* background-color: #D36756; */
+        justify-content: center;
+    }
+    #removebtn{
+        float:right;
+    }

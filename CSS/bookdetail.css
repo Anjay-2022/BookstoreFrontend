@@ -1,0 +1,242 @@
+#smallimg {
+    margin: 2.5px;
+}
+
+#bigimg {
+    margin-top: 3%;
+}
+
+#bookdetails {
+    display: none;
+    height: 93%;
+    width: 100%;
+    /* border: 2px solid wheat; */
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    font: normal normal normal 15px/20px Roboto;
+    letter-spacing: 0px;
+    color: #878787;
+}
+
+#pageundoredo {
+    display: flex;
+    height: 5%;
+    width: 70%;
+    /* border: 2px solid aqua; */
+    align-items: center;
+    text-indent: 10%;
+}
+
+#maindetails {
+    display: flex;
+    height: 93%;
+    width: 70%;
+    /* border: 2px solid teal; */
+    justify-content: center;
+}
+
+#smallimgcont {
+    display: flex;
+    height: 35%;
+    width: 5%;
+    /* border: 2px solid blueviolet; */
+    flex-direction: column;
+    align-items: center;
+}
+
+#secondbigimgcont {
+    display: flex;
+    height: 60%;
+    width: 25%;
+    /* border: 2px solid rgb(43, 226, 58); */
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: .3%;
+}
+
+#bigimgbg {
+    display: flex;
+    height: 87%;
+    width: 100%;
+    border: 1px solid #D1D1D1;
+    justify-content: center;
+    align-items: center;
+}
+
+#addbuttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 10%;
+    width: 95%;
+    /* border: 2px solid red; */
+    align-items: end;
+}
+
+#addtobagbtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90%;
+    width: 45%;
+    background-color: #A03037;
+    color: white;
+}
+
+#wishlistbtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90%;
+    width: 45%;
+    background-color: #333333;
+    color: white;
+    text-indent: 5%;
+}
+
+#detailscont {
+    display: flex;
+    height: 100%;
+    width: 63%;
+    margin-left: 4%;
+    flex-direction: column;
+}
+
+#bookname {
+    font: normal normal normal 28px/37px Roboto;
+    letter-spacing: 0px;
+    color: #0A0102;
+    font-weight: 700;
+}
+
+#authorname {
+    font: normal normal normal 18px/24px Roboto;
+    color: #878787;
+    opacity: 1;
+}
+
+#pricetag {
+    font: normal large medium 35px/42px Roboto;
+    letter-spacing: 0px;
+    color: #0A0102;
+    opacity: 1;
+    font-weight: 600;
+    margin-top: 1%;
+}
+
+#ratinglevel {
+    display: flex;
+    justify-content: space-between;
+    margin-top: .5%;
+    width: 12%;
+    font-size: 22px;
+    background-color: #388E3C;
+    color: #0A0102;
+}
+
+#detailswindow {
+    display: flex;
+    height: 50px;
+    width: 95%;
+    margin-left: 5%;
+    color: #373434;
+    font: normal normal normal 12px/16px Roboto;
+    overflow: hidden;
+}
+
+#customerfeedback {
+    height: 30%;
+    /* background-color: yellow; */
+}
+
+#feedbacktitle {
+    height: 17%;
+    width: 100%;
+    /* background-color: #3371B5; */
+    font: normal normal normal 18px/24px Roboto;
+    color: #0A0102;
+    font-weight: 800;
+}
+
+#feedbackbox {
+    display: flex;
+    background-color: #F5F5F5;
+    height: 83%;
+    width: 100%;
+    border-radius: 5px;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#overallrating {
+    color: #0A0102;
+    font-weight: 800;
+    margin-left: 2%;
+}
+
+#inputtext {
+    display: flex;
+    align-self: center;
+    height: 38%;
+    width: 90%;
+    background-color: white;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    margin-top: -1%;
+}
+
+#submitbtn {
+    display: flex;
+    align-self: flex-end;
+    position: relative;
+    top: 1%;
+    right: 5%;
+    background-color: #3371B5;
+    color: white;
+    border-radius: 5%;
+}
+
+#review {
+    display: flex;
+    height: 12.5%;
+    width: 100%;
+    flex-direction: column;
+    margin-left: 7%;
+    margin-top: 2.5%;
+    /* background-color: wheat; */
+}
+
+#nameShort {
+    display: flex;
+    height: 25px;
+    width: 25px;
+    background-color: rgb(255, 252, 252);
+    border-radius: 100%;
+    justify-content: center;
+    align-items: center;
+    float: left;
+    border: 1px solid #b6b5b5;
+    background-color: #fdfbfb;
+    margin-left: -7%;
+}
+
+#username {
+    display: flex;
+    color: #0A0102;
+    font: normal normal normal 55px/15px Roboto;
+    font-size: larger;
+    margin-top: 1%;
+}
+
+#reviewtext {
+    display: flex;
+    height: 35%;
+    width: 93%;
+    /* background-color: wheat; */
+    font: 10px Roboto;
+    color: #707070;
+    margin-top: 1%;
+}
